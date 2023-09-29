@@ -1,0 +1,33 @@
+.form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 18px;
+}
+.form button {
+  padding: 16px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.list {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.list li {
+  display: flex;
+  align-self: flex-start;
+  column-gap: 16px;
+  cursor: pointer;
+}
+.list li img {
+  transition: all 250ms ease-in-out;
+}
+.list li:hover img {
+  transform: scale(1.05);
+}
+
+.loader {
+  position: absolute;
+}

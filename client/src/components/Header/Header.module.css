@@ -1,0 +1,18 @@
+.header {
+  margin-bottom: 36px;
+}
+.list {
+  display: flex;
+  align-items: center;
+  column-gap: 36px;
+}
+
+.active {
+  font-weight: 500;
+  font-size: large;
+}
+.def {
+  font-weight: 400;
+  font-size: medium;
+  color: white;
+}
